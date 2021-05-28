@@ -1,18 +1,23 @@
-# I am Florence : Personal Portfolio Site
+# Personal Portfolio Site : I am Florence  
 
 [View the live project here](link)
 
-This is my personal portfolio called "I am Florence". It is designed to be responsive and accessible on a range of devices to display my work experiences, skills and projects. 
-User friendly and easy navigate, this project aims to have an overview of my story and attract potential recruiters and clients. 
+This is my personal portfolio site called "I am Florence". It is designed to be responsive and accessible on a range of devices to display my work experiences, skills and projects. 
+User friendly and easy navigate, this website aims to showcase my story by presenting myself in the best light to attract recruiters,get hired and expand my network in the tech industry.
 
 
 ## User Experience (UX)
 
-### Persona profiles
+### End user 
 
-1. Corporate HR recruitment specialist
-2. Start up business owner
-3. Recruitment agency
+1. Goal
+End users for this project are recruiters considering to hire an applicant.
+
+2.  Profile 
+
+* Corporate HR recruitment specialist
+* Start up business owner
+* Recruitment agency
 
 
 ### User stories
@@ -32,7 +37,8 @@ User friendly and easy navigate, this project aims to have an overview of my sto
 * As a recruiter, I want to see if the applicant is currently working on a project / open source project so that I can see if the applicant is an active programmer.
 * As a recruiter, I want to see if the applicant participates to coding challenges and hackathons so that I can see if the person is curious and like learning new things.
 * As a recruiter, I want to be able to download a copy of a CV and portfolio so I can share with other team members for a second opinion about the applicant profile.
-* As a recruiter I want to have access easily to personal information and contact details so that I can reach out to the applicant whenever is needed.
+* As a recruiter, I want to have access easily to personal information and contact details so that I can reach out to the applicant whenever is needed.
+* As a recruiter, I want to see testimonies / recommendations from people who worked with the applicant, so that I can have idea about how it is to work with the applicant
 
 3. Frequent User Goals
 
@@ -50,27 +56,18 @@ The `Roboto` font is the main font used throughout the whole website with `Sans 
 Roboto is a clean font used frequently in programming, so it is both attractive and appropriate for this portfolio project. It has a techy, machine-like feel to it. The wide-open characters also give it a friendly touch.
 
 * Imagery
-Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic. 
 
 * Links
-* [Resume]()
-* [Portfolio]()
+* [CV](CV Florence Mezino.pdf)
+* [Portfolio](Portfolio - Fake projects.pdf)
 
 ### Wireframes
 
-1. Web Wireframe - [View]()
+* All Wireframes - [View](All Wireframes.pdf)
 
-* [About me]()
-* [Expertise]()
-* [Projects]()
-* [Contact]()
-
-2. Mobile Wireframe - [View]()
-
-* [About me]()
-* [Expertise]()
-* [Projects]()
-* [Contact]()
+1. Web Wireframe - [View](Web Wireframes.pdf)
+2. Mobile Wireframe - [View](Mobile Wireframes.pdf)
 
 ## Features
 
@@ -104,14 +101,14 @@ Git was used for version control by utilizing the Gitpod terminal to commit to G
 GitHub is used to store the projects code after being pushed from Git.
 
 7. [Balsamiq](https://balsamiq.com/)
-Balsamiq was used to create the wireframes `TO BE COMPLETED WITH LINK` during the design process.
+Balsamiq was used to create [the wireframes](All Wireframes.pdf) during the design process.
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-W3C Markup Validator - Results
-W3C CSS Validator - Results
+W3C Markup Validator - `Results`
+W3C CSS Validator - `Results`
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -134,6 +131,8 @@ W3C CSS Validator - Results
 
 * As a recruiter, I want to have an option to contact the applicant so that I can explain the mission and give details about the job.
 
+* As a recruiter, I want to see testimonies / recommendations from people who worked with the applicant, so that I can have idea about how it is to work with the applicant
+
 
 2. Returning Visitors Goals
 
@@ -150,6 +149,19 @@ W3C CSS Validator - Results
 * A a recruiter, I want to see if the applicant participates to tech conferences so that I can assess if the applicant is open minded and focus on self development.
 
 * As a recruiter, I want to see how the applicant works on its digital presence so that I can determine if the applicant is able to share knowledge and receive feedback.
+
+### Further Testing
+
+* The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+* A large amount of testing was done to ensure that all pages were linking correctly.
+* Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Known Bugs
+
+* 
+* 
+* 
 
 ## Deployment
 
@@ -174,6 +186,9 @@ The project was deployed to GitHub Pages using the following steps...
 * Psychological properties of colours was found [Here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 * Psychological properties of fonts was foudn [Here](https://designmodo.com/font-psychology/)
 
+* Full Stack Developer skills was found [Here](https://intellipaat.com/blog/full-stack-developer-skills/)
+
+
 ### Media
 
 * All photos were produced by [Orekanna Photography](https://www.orekanna.com/) specifically for this project.
@@ -197,10 +212,9 @@ The project was deployed to GitHub Pages using the following steps...
 
 #### Question 2
 
-* Can this project be amended or cloned for personal usage ?
+* Which framework has been used to develop this portfolio site project ?
 
-It is necessary to request auhtorization to the developer before to process any moodification or clonage of this portfolio.
-
+- Bootstrap version 4.6 has been used to make this website nice and responsive on all devices and browsers.
 
 ## Author 
 
