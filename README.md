@@ -1,10 +1,49 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Florence Mezino,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+# I am Florence : Personal Portfolio Site
+
+[View the live project here](link)
+
+This is my personal portfolio called "I am Florence". It is designed to be responsive and accessible on a range of devices to display my work experiences, skills and projects. 
+User friendly and easy navigate, this project aims to have an overview of my story and attract potential recruiters and clients. 
+
+
+## User Experience (UX)
+
+### Persona profiles
+
+1. HR recruitment specialist - corporate
+2. Business owner - start up
+3. Recruitment agency
+
+
+### User stories
+
+1. First Time Visitor Goals
+
+* As a recruiter, I want to have an immediate and clear overview of the applicant’s tech profile as soon as I open the website so that I can determine if it matches my job offer
+* As a recruiter, I want to see an overview of fields of expertise so that I can see if the applicant as the necessary skills for the job
+* As a recruiter, I want to see the applicant education background so that I can check 
+* As a recruiter, I want to see a portfolio with nice visuals and clear description of the tech skills used for each project so that I can evaluate the applicant level of expertise.
+* As a recruiter, I want to have the option to contact 
+
+
+2. Returning Visitors Goals
+
+* As a recruiter, I want to see if the applicant participates to coding challenges and hackathons so that I can see if the person is active, curious, like challenges and learning new things.
+* As a recruiter I want to be able to download a copy of a CV or portfolio so I can share with other team members for a second opinion about the applicant profile 
+* 
+
+new project (date)
+
+download docs
+
+3. Frequent User Goals
+
+news tech / conference s I can have an idea about the applicant mindset and personnality and enjoy learning new things.
+
+
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
