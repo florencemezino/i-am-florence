@@ -169,14 +169,21 @@ GitHub is used to store the projects code after being pushed from Git.
 7. [Balsamiq](https://balsamiq.com/)
 Balsamiq was used to create [the wireframes](All Wireframes.pdf) during the design process.
 
-## Testing
+## Testing 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 W3C Markup Validator - `Results`
 W3C CSS Validator - `Results`
 
+Lighthouse - `Results` (picture of the result)
+
 ### Testing User Stories from User Experience (UX) Section
+
+Most common paths through the website:
+1. About me > Expertise > Projects > Contact
+2. About me > Contact (via the Hire me button) > Projects > Expertise
+
 
 1. First Time Visitor Goals
 
@@ -278,13 +285,13 @@ Click Here to retrieve pictures for some of the buttons and more detailed explan
 
 * All content was written by the developer.
 * Psychological properties of colours was found [Here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
-* Psychological properties of fonts was foudn [Here](https://designmodo.com/font-psychology/)
+* Psychological properties of fonts was found [Here](https://designmodo.com/font-psychology/)
 
 * Full Stack Developer skills was found [Here](https://intellipaat.com/blog/full-stack-developer-skills/)
 
 * Readme.md inspiration models : 
-- [Code Institute sample](https://github.com/Code-Institute-Solutions/SampleREADME)
-- [Anna Greaves's portrait artist](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
+Readme.md sample from Code Institute [View](https://github.com/Code-Institute-Solutions/SampleREADME)
+Readme.md sample from Anna Greaves's portrait artist [View](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
 
 
 ### Media
@@ -302,17 +309,13 @@ Click Here to retrieve pictures for some of the buttons and more detailed explan
 
 ## FAQ
 
-#### Question 1
+#### Question 1 : Are the projects images displayed in the portfolio real projects ?
 
-* Are the projects images displayed in the portfolio real projects ?
+Current projects displayed are fake projects in order to illustrate the features of the portfolio. It will be replaced at the end of the scholarship with Code Institute.
 
-- Current projects displayed are fake projects in order to illustrate the features of the portfolio. It will be replaced at the end of the scholarship with Code Institute.
+#### Question 2 : Which framework has been used to develop this portfolio site project ?
 
-#### Question 2
-
-* Which framework has been used to develop this portfolio site project ?
-
-- Bootstrap version 4.6 has been used to make this website nice and responsive on all devices and browsers.
+* Bootstrap version 4.6 has been used to make this website nice and responsive on all devices and browsers.
 
 ## Author 
 
