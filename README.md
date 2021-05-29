@@ -15,6 +15,8 @@ End users for this project are recruiters considering to hire an applicant.
 
 2.  Profile 
 
+Recruiters interacting with the site are English speaker and lives mainly in the Netherlands (but it can be anywhere in the world). Below we can fidn their profile :
+
 * Corporate HR recruitment specialist
 * Start up business owner
 * Recruitment agency
@@ -71,7 +73,71 @@ Imagery is important. The large, background hero image is designed to be strikin
 
 ## Features
 
-* Responsive on all device sizes
+* The website is structured in 4 pages : `About me`, `Expertise`, `Project`, `Contact` and appears to be also a scroll one page website also. 
+* The website's pages and different features are responsive on all device sizes. 
+
+...Each page features a responsive header with navigation bar and a conventional placing of logo (top left).
+There is a highlighted `Download` icon in the top right for them to download a CV.
+The first and last page has a footer with copyright information and social media links.
+
+#### About me
+
+...The `About me` page features a special hero image that cover the entire background of the first page. 
+On all devices a full screen static image with a subtle motion effect is seen when opening the website to give som dynamism.
+The purpose of this hero image element is to give maximum impact when opening the website.
+The main heading "Hi, I am Florence" appears with a typewritter effect to showcase a striking professionnal introduction.
+At the bottom of the page (above the footer) are two call to action buttons: Download CV and Hire me. The Hire me button is highlighted and redirect the user to the `Contact` page.
+
+#### Expertise 
+
+...The `Expertise` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop.
+- 3 domains of expertise are displayed : Web developement (front end, back end), UX / UI design and security
+- A graph is illustrating the skill set. Each level in the skill is represented in percentage to give the recruiter a picture of the applicant profile.
+- A soft skills section appears in this page also to show applicant global competencies.
+
+
+#### Projects 
+
+...The `Projects` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop. 
+- Timeline feature is showing different work experiences, education, participation to coding challenges, hackathons and tech conferences.
+- 4 fake projects are displayed with 3 images each and a description (release date and technologies used)
+
+#### Contact 
+
+...The `Contact` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop. 
+- Contact form is available for the recruiter to get in touch with the applicant and it requests the recruiter's name and email. 
+There is also an option to upload a file if the recruiter has a document to share with the applicant explaining the details of the job opportunity.
+The bottom of the form contains a Send button.
+- An image of a map appears on the desktop version
+- 2 to 3 testimonies are displayed at the bottom of the page above the footer to reinforce applicant's credibility.
+
+### Existing features 
+
+1. On every page
+
+* Header Logo - Clicking the logo returns users to the home page.
+* Header Navigation Bar - Allows all users to easily navigate all the website's pages and find what they are looking for quickly.
+In the mobile version the navigation bar is turn into a hamburger menu for a user friendly experience.
+* Footer copyright info -  Exists on the first and last page for brand and content protection.
+* Footer social icons - Allows recruiters to be redirected to social media platform  to stay connected.
+* Call to action buttons - The download icon is on every page and allows the recruiter to download the applicant's CV.
+
+2. Page features specificities
+
+* `About me`: Allows recruiters to connect emotionnally thanks to a hero image representing the applicant moving in motion and the typewritting feature for "Hi, I am Florence"
+* `Expertise` : Allows recuiters to identify the applicant's domain of expertise and skills. The percentage from the skillset graph is gradually increasing when the user arriver on the page. It brings dynamism and suggest growth and potential improvment.
+* `Projects` : Allows recruiters to see a portfolio showcasing the designs and the techonolgies used in a aesthetic way. On mobile users will have to swipe right to see all available photos for each project.
+* `Contact` : Allows recruiters to contact the applicant with a user friendly contact form.
+
+
+### Features to implement in the future
+
+* CV video
+* News : Podcast / Blog
+* Captcha on the contact form  in the Contact page for security purpose.
+* Option to change the language of the website to French which is the mothertongue of the applicant in order to reach the French market.
+* GDPR compliant by including a pop-up allowing all new visitors to the website to approve or deny the processing of their personal data. (relevant for the Contact page)
+
 
 ## Technologie Used 
 
@@ -175,6 +241,34 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
+### Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+1. Log in to GitHub and locate the GitHub Repository
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+
+> $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+7. Press Enter. Your local clone will be created.
+
+> $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+> Cloning into `I am Florence-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+
+Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits
 
@@ -187,6 +281,10 @@ The project was deployed to GitHub Pages using the following steps...
 * Psychological properties of fonts was foudn [Here](https://designmodo.com/font-psychology/)
 
 * Full Stack Developer skills was found [Here](https://intellipaat.com/blog/full-stack-developer-skills/)
+
+* Readme.md inspiration models : 
+- [Code Institute sample](https://github.com/Code-Institute-Solutions/SampleREADME)
+- [Anna Greaves's portrait artist](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
 
 
 ### Media
