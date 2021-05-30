@@ -10,14 +10,14 @@
 </head>
 <body>
 
-<!--Navigation bar-->
+<!--Navigation-->
     <div class="container-fluid">
         <header>
-            <nav>
+            <nav aria-label="breadcrumb">
                 <a class="navbar-brand" href="index.html"><i class="fa-solid fa-square-terminal"></i>CodeFlo</a>
-                <ul class="nav justify-content-end">
+                <ul class="nav justify-content-end breadcrumb">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">About me</a>
+                        <a class="nav-link active breadcrumb-item active" href="index.html">About me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="expertise.html">Expertise</a>
@@ -37,6 +37,7 @@
     </div>
 <!--/.navigation bar-->
 
+
 <!--Hero Image-->
     <div class="container-fluid">
         <img src="assets/images/florence_hero_image.jpeg" class="img-fluid" alt="Responsive image">
@@ -46,26 +47,60 @@
 <!--Callout-->
     <article class="container">
         <div class="row">
+            <div class="col-12">
             <section class = "callout">
                 <h1 class="display-6">Hi,</h1>
                 <h1 class="display-2">I am Florence</h1>
                 <h1 class="display-6">Full Stack Software Developer</h1>
                 <blockquote class="blockquote">
-                    <span class="badge badge-pill badge-primary">Status</span> Actively making the world wide web more accessible, ethical and beautiful!
+                    <span class="badge badge-pill badge-primary">Status</span> Actively looking for an opportunity to make the world wide web more accessible, ethical and beautiful.
                 </blockquote>
+                <hr>
                 <blockquote class="blockquote">
                     <p>I have always been fascinated about how technology evolves and impacts our life.
-                    <br> My ultimate goal is to build a better and brighter society for our planet and all its beings best interests.
-                    </p>
+                    <br> My ultimate goal is to build a better and brighter society for our planet and all its beings best interests.</p>
                 </blockquote>
                 <button type="button" class="btn btn-primary btn-lg">Download CV</button>
                 <button type="button" class="btn btn-secondary btn-lg">Hire me</button>
             </section>
+            </div>
         </div>
     </article>
 <!--/.callout-->
-
+    <hr>
 <!--Expertise-->
+
+    <section class="container-fluid">
+        <div class="container">      
+            <h3 class="history-heading uppercase">Expertise</h3>
+                <div class="row">
+                    <div class="card border-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Web development
+                        </div>
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">Front end & Back end</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                        <div class="card border-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Design</div>
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">UX / UI Design</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Security</div>
+                    <div class="card-body text-primary">
+                        <h5 class="card-title">Cybersecurity</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
 <!--/.expertise-->
 
 <!--Projects-->
