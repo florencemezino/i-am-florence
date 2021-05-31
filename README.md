@@ -66,14 +66,23 @@ Imagery is important. The large, background hero image is designed to be strikin
 
 ### Wireframes
 
-* All Wireframes - [View](All Wireframes.pdf)
+I. All Wireframes - [View](assets/wireframe/All Wireframes.pdf)
 
-1. Web Wireframe - [View](Web Wireframes.pdf)
-2. Mobile Wireframe - [View](Mobile Wireframes.pdf)
+1. Web Wireframes - [View](Web Wireframes.pdf)
+- [Aboutme]()
+- [Expertise]()
+- [Projects]()
+- [Contact]()
+
+II. Mobile Wireframes - [View](Mobile Wireframes.pdf)
+- [Aboutme]()
+- [Expertise]()
+- [Projects]()
+- [Contact]()
 
 ## Features
 
-* The website is structured in 4 pages : `About me`, `Expertise`, `Project`, `Contact` and appears to be also a scroll one page website also. 
+* The website is structured in 4 pages : `About me`, `Expertise`, `Projects`, `Contact` and appears to be also a scroll one page website also. 
 * The website's pages and different features are responsive on all device sizes. 
 
 ...Each page features a responsive header with navigation bar and a conventional placing of logo (top left).
@@ -171,70 +180,7 @@ Balsamiq was used to create [the wireframes](All Wireframes.pdf) during the desi
 
 ## Testing 
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-
-W3C Markup Validator - `Results`
-W3C CSS Validator - `Results`
-
-Lighthouse - `Results` (picture of the result)
-
-### Testing User Stories from User Experience (UX) Section
-
-Most common paths through the website:
-1. About me > Expertise > Projects > Contact
-2. About me > Contact (via the Hire me button) > Projects > Expertise
-
-
-1. First Time Visitor Goals
-
-* As a recruiter, I want to have an overview of the applicant’s tech profile as soon as I open the website so that I can determine if it matches my job offer.
-- Upon entering the website, recruiters are automatically greeted with a clear presentation of the applicant profile and a easy readable navigation bar to go to the page of their choice.
-- The hero image give the tone as we see the applicant `TO BE COMPLETED depending of which photo will be used`
-- The recruiter has 3 options : Click one of the 2 call to action buttons which are `Download CV and Portfolio` and `Get in touch` or scroll down to read more about the applicant expertise and projects.
-
-* As a recruiter, I want to see an overview of fields of expertise so that I can see if the applicant as the necessary skills and competencies for the job.
-
-* As a recruiter, I want to have an overview of the tech skillset of the applicant so I can determine if the person will be able to do the main required tasks.
-
-* As a recruiter, I want to see the applicant education background so that I can check if the applicant as a diploma and did courses/bootcamp in the required field.
-
-* As a recruiter, I want to see if the applicant as professionnal experiences so that I can assess if the applicant has experience working in work environment and in a team.
-
-* As a recruiter, I want to see a portfolio with nice visuals and clear description of the tech skills used for each project so that I can evaluate the applicant level of expertise.
-
-* As a recruiter, I want to have an option to contact the applicant so that I can explain the mission and give details about the job.
-
-* As a recruiter, I want to see testimonies / recommendations from people who worked with the applicant, so that I can have idea about how it is to work with the applicant
-
-
-2. Returning Visitors Goals
-
-* As a recruiter, I want to see if the applicant is currently working on a project / open source project so that I can see if the applicant is an active programmer.
-
-* As a recruiter, I want to see if the applicant participates to coding challenges and hackathons so that I can see if the person is curious and like learning new things.
-
-* As a recruiter, I want to be able to download a copy of a CV and portfolio so I can share with other team members for a second opinion about the applicant profile.
-
-* As a recruiter I want to have access easily to personal information and contact details so that I can reach out to the applicant whenever is needed.
-
-3. Frequent User Goals
-
-* A a recruiter, I want to see if the applicant participates to tech conferences so that I can assess if the applicant is open minded and focus on self development.
-
-* As a recruiter, I want to see how the applicant works on its digital presence so that I can determine if the applicant is able to share knowledge and receive feedback.
-
-### Further Testing
-
-* The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
-* A large amount of testing was done to ensure that all pages were linking correctly.
-* Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
-
-### Known Bugs
-
-* 
-* 
-* 
+Testing information can be found in the following file [Testing.md](https://github.com/florencemezino/i-am-florence/blob/master/Testing.md))
 
 ## Deployment
 
