@@ -102,10 +102,120 @@ III. Frequent User Goals
 
 ### Manual (logical) testing of all elements and functionality on every page.
 
+#### About me
+
+1. Navigation bar
+- Go to "About me" from a desktop
+- Click on the logo
+- Click on a different tab to check if the active tab the required tab is highlighted
+- 
+- 
+- 
+- 
+- 
+
+2. Hero image
+- Go to "About me" from a desktop
+- Confirm image is visible, appears with a smooth motion and is 100 % width of the the screen
+- 
+- 
+- 
 
 
+3. Call out / Profile description
+- Go to "About me" from a desktop
+- 
+- 
+- 
+- 
+- 
+
+> Repeat verification of functionality and responsiveness on mobile phone and tablet via Developer Tool
+
+#### Expertise
+
+1. Navigation bar
+- Navbar code is identical on all html pages. Testing already completed.
 
 
+2. Cards for domains of Expertise
+- Go to "Expertise" from a desktop
+- 
+- 
+- 
+- 
+- 
+
+3. Graph for skills set
+- Go to "Expertise" from a desktop
+- 
+- 
+- 
+- 
+- 
+
+> Repeat verification of functionality and responsiveness on mobile phone and tablet via Developer Tool
+
+
+#### Projects
+
+1. Navigation bar
+- Navbar code is identical on all html pages. Testing already completed.
+
+2. Timeline for work experience
+- Go to "Projects" from a desktop
+- 
+- 
+- 
+- 
+- 
+
+3. Caroussels for projects portfolio
+- 
+- 
+- 
+- 
+- 
+
+
+4. Description containers grid for project portfolio 
+- 
+- 
+- 
+- 
+- 
+
+> Repeat verification of functionality and responsiveness on mobile phone and tablet via Developer Tool
+
+
+#### Contact
+
+1. Navigation bar
+- Navbar code is identical on all html pages. Testing already completed.
+
+2. Contact form
+- Go to "Contact" from a desktop
+- 
+- 
+- 
+- 
+- 
+
+3. Cards testimonies
+- Go to "Contact" from a desktop
+- 
+- 
+- 
+- 
+
+4. Footer
+- Go to "Contact" from a desktop
+- 
+- 
+- 
+- 
+
+> Repeat verification of functionality and responsiveness on mobile phone and tablet via Developer Tool
 
 ## Further Testing
 
