@@ -239,6 +239,7 @@ Click Here to retrieve pictures for some of the buttons and more detailed explan
 Readme.md sample from Code Institute [View](https://github.com/Code-Institute-Solutions/SampleREADME)
 Readme.md sample from Anna Greaves's portrait artist [View](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
 
+* CSS tricks to amend Bootdtrap [View](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background)
 
 ### Media
 
