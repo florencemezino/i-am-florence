@@ -22,7 +22,6 @@ body{
 }
 
 
-
 /* ---------------------------------- Navbar */
 
 .nav-link {
@@ -35,6 +34,10 @@ body{
 .navbar-brand {
     float: left;
     font-size: 30;
+}
+.navbar-brand:hover {
+    color: #D46D4E;
+
 }
 
 /* Navbar toggler */
@@ -70,6 +73,14 @@ body{
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #D46D4E }
+}
+
+.badge-success {
+    background-color: #D46D4E;
+}
+
+.lead {
+    color:#343A40;
 }
 
 /* ---------------------------------- Footer */
