@@ -13,15 +13,6 @@ body{
     color: #777777;
 }
 
-h1 {
-    color: #2B1C63;
-    font-weight: 700;
-}
-
-h2 p {
-    color: #424242;
-}
-
 
 .container-fluid .landing {
   display: flex; 
@@ -50,6 +41,9 @@ h2 p {
 
 .nav-link {
     color: #fafafa;
+}
+.nav-link:hover {
+    color: #54D3B7;
 }
 
 .navbar-brand{
