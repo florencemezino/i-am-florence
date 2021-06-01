@@ -83,6 +83,25 @@ body{
     color:#343A40;
 }
 
+/* ---------------------------------- Expertise */
+
+.skillset-photo {
+  max-width: 100px;
+  height: auto;
+
+}
+
+/*Domains*/
+.card{
+    margin: 50px 50px;
+}
+
+.card-header{
+    background-color:#D46D4E;
+}
+/*Skillset*/
+
+
 /* ---------------------------------- Footer */
 #footer-details {
     background-color: #343A40;
