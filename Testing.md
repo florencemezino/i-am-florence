@@ -226,7 +226,7 @@ III. Frequent User Goals
 
 ## Known Bugs
 
-* 
+* Portfolio : "Like button" do not trigger data
 * 
 * 
 
