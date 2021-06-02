@@ -111,7 +111,9 @@
 /* ---------------------------------- Expertise */
 
 .skillset-photo {
-  max-width: 100px;
+  max-width: 400px;
+  margin-left : 120px; 
+  margin-bottom: 100px;
   height: auto;
 }
 
@@ -122,19 +124,31 @@
 }
 
 .card-header{
-    background-color:#D46D4E;
+    background-color:#5E90A4;
+    font-weight: 200;
 }
-/*Skillset graph*/
+
+
+.card-title {
+    font-weight: 300;
+
+}
+
+/*Skillset progress bar*/
 
 
 .progress-bar {
     width:100px;
     background-color : #D46D4E;
+
 }
 
 .progress-label {
-  float: left;
-  margin-right: 1em;
+  float: right;
+  margin-right: 3em;
+  font-size: 20px;
+  font-weight: 200;
+  
 }
 
 
@@ -142,6 +156,13 @@
 
 .card-album {
     margin:-150px;
+}
+
+.projects-photo {
+  max-width: 1000px;
+  margin-left : 200px; 
+  margin-bottom: 100px;
+  height: auto;
 }
 
 
