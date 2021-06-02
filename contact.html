@@ -56,13 +56,13 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                <img src="assets/images/florence_contact2.jpeg" style="width: 100%; height:auto; border-radius: 5%; margin-top:100px;" class="img-fluid" alt="Responsive image">
+                <img src="assets/images/florence_contact2.jpeg" style="max-width: 100%; height:auto; border-radius: 5%; margin-top:280px;" class="img-fluid" alt="Responsive image">
             </div>
             <div class="col-sm-6">
                 <form id="form-details">
                     <div class="form-group">
                         <label for="exampleInputName" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
+                        <input type="text" class="form-control" id="exampleInputName" placeholder="name">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -77,15 +77,15 @@
                         <label for="formFileSm" class="form-label">Mission details</label>
                         <input class="form-control form-control-sm" id="formFileSm" type="file">
                     </div>
-                    <button type="submit" class="btn btn-dark"data-toggle="modal" data-target="#exampleModal">Send
+                    <button type="submit" id="btn-send" class="btn btn-dark btn-lg btn-block"data-toggle="modal" data-target="#exampleModal">Send
                     </button>
-                </form>
+                </form>  
             </div>
         </div>
     </div>      
 <!--/.Contact Form-->
 
-<!--Thank you-->
+<!--Thank you -->
     <section>  
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -104,46 +104,39 @@
         </div>
      </section>
 <!--/.Thank you-->
-    <br>
+
+    <hr>
 
 <!--Testimonies-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="card border-info mb-3" style="max-width: 18rem;">
-                <div class="card-body text-info">
-                    <h5 class="card-title">Great Colleague!</h5>
-                    <p class="card-text">I can assess that .</p>
-                </div>
-                <div class="card-footer bg-light border-dark">Footer</div>
+
+    <div class="container-fluid testimony">
+        <div class="row ">
+            <div class="testimony col-lg-3">
+                <img src="assets/images/testimonies/testimony1.jpeg" class="testimony-photo"/> 
+                <h5>Amazing colleague</h5>
+                <p>Florence is a smart worker, responsible and has a great communication skills. I recommend her profile to anyone who wish to develop their online business.</p>
+                <p><a class="btn btn-light btn-testimony" href="#" role="button">Ramon Vilaplana &raquo;</a></p>
             </div>
-         <div class="row"> 
-            <div class="card border-info mb-3" style="max-width: 18rem;">
-                <div class="card-body text-info">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <div class="card-footer bg-light border-dark">Footer</div>
+            <div class="testimony col-lg-3">
+                <img src="assets/images/testimonies/testimony2.jpeg" class="testimony-photo"/>    
+                <h5>Skilled software engineer</h5>
+                <p>I definitely recommend Florence to any job as she is very passionnate and talented. She invests herself 100% in everything she does.</p>
+                <p><a class="btn btn-light btn-testimony" href="#" role="button">Grace Hopper &raquo;</a></p>
             </div>
-        </div> 
-        <div class="row">  
-            <div class="card border-info mb-3" style="max-width: 18rem;">
-                <div class="card-body text-info">
-                    <h5 class="card-title">Success card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <div class="card-footer bg-light border-dark">Footer</div>
+            <div class="testimony col-lg-3">
+                <img src="assets/images/testimonies/testimony6.jpg" class="testimony-photo"/> 
+                <h5>One of the bests</h5>
+                <p>Florence is my go-to software engineer. Whenever I need to set up a new website I make sure to reach out to her as she is the best at it.</p>
+                <p><a class="btn btn-light btn-testimony" href="#" role="button">Elon Musk &raquo;</a></p>
+            </div>
+            <div class="testimony col-lg-3">
+                <img src="assets/images/testimonies/testimony5.jpeg" class="testimony-photo"/> 
+                <h5>Inspiring women</h5>
+                <p>Florence has been collaborating with my team for a couple of years, and on top of being a great software engineer, she is also an easy-going person.</p>
+                <p><a class="btn btn-light btn-testimony" href="#" role="button">Michelle Obama &raquo;</a></p>
             </div>
         </div>
-        <div class="row">         
-            <div class="card border-info mb-3" style="max-width: 18rem;">
-                <div class="card-body text-info">
-                    <h5 class="card-title">Success card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <div class="card-footer bg-light border-dark">Footer</div>
-            </div>
-        </div>   
-<!--/.Testimonies-->
+    </div>
 
 <!--Footer-->
     <footer class="footer fixed-bottom mt-auto">
@@ -158,7 +151,7 @@
                     <p class="inline-block text-light">Located in the Netherlands, the new Silicon Valley!</p>
                 </div> 
                 <div class="col-lg-3">
-                    <span class="uppercase general-sub text-light">Let's connect!</span>
+                    <span class="uppercase general-sub text-muted">Let's connect!</span>
                         <ul class="list-inline social-links">
                             <li class="list-inline-item">
                                 <a target="_blank" href="https://twitter.com/FlorenceMzn">

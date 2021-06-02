@@ -209,14 +209,52 @@
 
 /* -------------------------------------------------------------------------------------------- Contact*/
 
+/*Form*/
+
 #form-details {
+    background-color: #F8F9FA;
+    border-radius: 50%;
     margin-top: 200px;
-
 }
-
-
 
 .form-label {
     color: #D46D4E;
+    font-size: 20px;
+    font-weight: 400;
+}
 
+.form-control {
+    font-style: italic;
+    font-weight :200px;
+    font-size: 15px;
+}
+
+#btn-send {
+    background-color: #D46D4E;
+    margin-top: 50px;
+    margin-bottom: 25px;
+
+}
+
+/*Testimmony*/
+
+.testimony {
+    margin-top: 50px;
+    text-align: center;
+    background-color : #A3B7BE;
+    margin-bottom: 20px;
+}
+
+.testimony-photo {
+    max-width: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.testimony-title {
+    font-size: 20px;
+}
+
+.btn-testimony {
+    color: #5E90A4;
 }
