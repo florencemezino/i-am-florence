@@ -184,11 +184,39 @@
 }
 
 .projects-photo {
-  max-width: 400px;
-  margin-top: 200px;
-  margin-right: 120px; 
+    max-width: 400px;
+    margin-top: 200px;
+    margin-right: 120px; 
+
 }
 
 .card-album {
     margin:-150px;
+}
+
+.text-tech {
+    color : #D46D4E;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+
+/* -------------------------------------------------------------------------------------------- Blog*/
+
+
+
+
+/* -------------------------------------------------------------------------------------------- Contact*/
+
+#form-details {
+    margin-top: 200px;
+
+}
+
+
+
+.form-label {
+    color: #D46D4E;
+
 }
