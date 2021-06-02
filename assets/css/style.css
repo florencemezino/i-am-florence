@@ -30,6 +30,9 @@
 
 .nav-link {
     color: #fafafa;
+    font-weight: 300;
+    letter-spacing:2px;
+    margin-left: 30px;
 }
 .nav-link:hover {
     color: #D46D4E;
@@ -38,6 +41,9 @@
 .navbar-brand {
     float: left;
     font-size: 30;
+    font-weight: 300;
+    letter-spacing:2px;
+    margin-left: 30px;
 }
 
 /* Navbar toggler */
@@ -54,15 +60,27 @@
 #footer {
     background-color: #343A40;
     color: #fafafa;
+    margin-bottom:10px;
 }
 
 .fab {
     color: #fafafa;
+    margin-right: 0.5em;
+    line-height: 40px;
     
+
 }
 
 .fab:hover {
     color: #D46D4E;
+}
+
+.footer-title {
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+    font-weight: 300;
+    letter-spacing:2px;
 }
 
 
@@ -86,6 +104,7 @@
     margin-top: 400px ;
     margin-left : 150px;
     margin-right: 300px;
+    letter-spacing:1px;
     
 }
 
