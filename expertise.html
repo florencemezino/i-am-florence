@@ -20,7 +20,7 @@
 <body>
 
 <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark ">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><i class="fas fa-laptop-code fa-lg vw"></i>Florence<br><small>Codes the Machine</small></a>
             <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
@@ -104,52 +104,97 @@
     </div>
 <!--/.expertise-->
 
-<!--Skillset photo + graph-->
+<!--Skillset photo + progressbar-->
     <section class="container-fluid">
         <div class= "row">
             <div class="col-md-3">
                 <img src="assets/images/skillset_photo.jpeg" style="width: 100%; height:auto; border-radius: 5%" alt="A person on a bridge">
             </div>
             <div class="col-md-9">
-                <div class="progress progress-label">
-                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                </div>
-                <div class="progress">
+                <hr>
+                <hr>
+                <div class="progress-label">HTML</div>
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">90%</div> 
+                <br>             
+                <div class="progress-label">CSS</div>
                     <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
-                </div>
-
-                <div class="progress">
+                <br>
+                <div class="progress-label">Javascript</div>
                     <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
-                </div>
-
-                <div class="progress">
+                <br>
+                <div class="progress-label">Python</div>
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">60%</div>
+                <hr>
+                <hr>
+                <div class="progress-label">Bootstrap</div>
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">70%</div>
+                 <br>   
+                <div class="progress-label">Jquery</div>
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+                <br>
+                <div class="progress-label">MongoDB</div>
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
+                <hr>
+                <hr>
+                <div class="progress-label">Flask</div>
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">60%</div>
+                <br>
+                <div class="progress-label">Django</div>
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">60%</div>
+                <br>
+                <div class="progress-label">MySQL</div>
                     <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
-                </div>
-            </div>
+                <hr>
+                <hr>
+            </div>   
         </div>
     </section>
-<!--/.Skillset photo + graph-->
+<!--/.Skillset photo + progressbar-->
 
-<!--Skillset back-end-->
-    <section class="container">
-        <div class= "col-lg">
-            <div class="progress progress-label">
-                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-            </div>
 
-            <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+<!--Footer-->
+    <footer class="footer mt-auto">
+        <div class="container-fluid bg-dark">
+            <div class="row">
+                <div class="col-lg-3">
+                    <span class="uppercase general-sub text-muted">Copyright 2021</span>
+                    <p class="inline-block text-muted">All rights reserved</p>
+                </div> 
+                <div class="col-lg-6">
+                    <span class="uppercase general-sub text-muted">About</span>
+                    <p class="inline-block text-muted">Full Stack Web Developer located in the Netherlands, the new Silicon Valley!</p>
+                </div> 
+                <div class="col-lg-3">
+                    <span class="uppercase general-sub text-muted">Let's connect!</span>
+                        <ul class="list-inline social-links">
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://twitter.com/FlorenceMzn">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.linkedin.com/in/florence-mezino-72a98b1a/">
+                                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                    <span class="sr-only">LinkedIn</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://github.com/florencemezino">
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                    <span class="sr-only">Github</span>
+                                </a>
+                            </li>
+                        </ul>
+                </div> 
             </div>
+        </div>   
+    </footer>
+<!--/.footer-->
 
-            <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
-            </div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-            <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
-            </div>
-        </div>
-    </section>
-<!--/.Skillset back-end-->
 </body>
 </html>

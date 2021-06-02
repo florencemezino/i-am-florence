@@ -44,7 +44,6 @@
 #footer {
     background-color: #343A40;
     color: #fafafa;
-    padding:100px;
 }
 
 .social-links{
@@ -140,5 +139,9 @@
 
 
 /* ---------------------------------- Projects */
+
+.card-album {
+    margin:-150px;
+}
 
 
