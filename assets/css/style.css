@@ -154,15 +154,28 @@
 
 /* ---------------------------------- Projects */
 
-.card-album {
-    margin:-150px;
+.timeline {
+    margin-top: 100px;
+    margin-left: -500px;
+}
+
+.timeline-date {
+    color: #D46D4E;
+    font-weight: bold;
+}
+
+.img-fluid {
+    max-width: 80px;
+
 }
 
 .projects-photo {
-  max-width: 1000px;
-  margin-left : 200px; 
-  margin-bottom: 100px;
-  height: auto;
+  max-width: 400px;
+  margin-top: 200px;
+  margin-right: 120px; 
 }
 
+.card-album {
+    margin:-150px;
+}
 
