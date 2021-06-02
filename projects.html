@@ -69,6 +69,7 @@
                     <time>September 2019</time>
                 </div>
             </div>
+            <hr>
             <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
                 <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
                     <h3 class=" text-dark">Shecodes workshop</h3>
@@ -81,6 +82,7 @@
                     <time>October 2019</time>
                 </div>
             </div>
+            <hr>
             <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
                 <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
                     <h3 class=" text-dark">Taste of Code at Codaisseur</h3>
@@ -93,6 +95,7 @@
                     <time>November 2019</time>
                 </div>
             </div>
+            <hr>
             <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
                 <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
                     <h3 class=" text-dark">FullStack Software Developement at Code Institute</h3>
@@ -129,8 +132,8 @@
                 <p class="card-text">Userfriendly website etc</p>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View Github Repo</button>
-                    <button type="button" class="btn btn-sm btn-outline-info">Like</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/florencemezino','_blank')">View Github Repo</button>
+                    <button type="button" class="btn btn-sm btn-outline-info js-click">Like</button>
                     </div>
                     <small class="text-muted">html, css, bootstrap</small>
                 </div>
@@ -144,7 +147,7 @@
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View Github Repo</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/florencemezino','_blank')">View Github Repo</button>
                     <button type="button" class="btn btn-sm btn-outline-info">Like</button>
                     </div>
                     <small class="text-muted">html, css, js, api</small>
@@ -159,7 +162,7 @@
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View Github Repo</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/florencemezino','_blank')">View Github Repo</button>
                     <button type="button" class="btn btn-sm btn-outline-info">Like</button>
                     </div>
                     <small class="text-muted">html, css, js, python + flask</small>
@@ -174,7 +177,7 @@
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View Github Repo</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/florencemezino','_blank')">View Github Repo</button>
                     <button type="button" class="btn btn-sm btn-outline-info">Like</button>
                     </div>
                     <small class="text-muted">html, css, js, python + django</small>
@@ -226,7 +229,14 @@
     </footer>
 <!--/.footer-->
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+
+  $( ".js-click" ).click(function() {
+    $( ".js-click" ).css('background', '#5E90A4');
+  });
+
+
+</script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
