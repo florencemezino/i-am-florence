@@ -49,59 +49,54 @@
     </nav> 
 <!--/.Navbar-->
 
-<!--Contact Form-->
+<!--Contact Form + modal-->
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6">
-                <img src="assets/images/florence_contact.jpeg" style="max-width: 100%; height:auto; border-radius: 5%; margin-top: 125px;" class="img-fluid" alt="a person looking at a computer">
+                <img src="assets/images/florence_contact.jpeg" style="max-width: 100%; height:auto; border-radius: 3%; margin-top: 125px;" class="img-fluid" alt="a person looking at a computer">
             </div>
             <div class="col-lg-6">
                 <form id="form-details">
                     <div class="form-group">
-                        <label for="exampleInputName" class="form-label">Name</label>
+                        <label for="exampleInputName" class="form-label required-input">Name</label>
                         <input type="text" class="form-control" id="exampleInputName" placeholder="name">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <label for="exampleInputEmail1" class="form-label required-input">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@company.com">
                         <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
+                        <label for="exampleFormControlTextarea1" class="form-label required-input">Your message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="project summary"></textarea>
                     </div>
                     <div class="mb-3">
                         <label for="formFileSm" class="form-label">Mission details</label>
                         <input class="form-control form-control-sm" id="formFileSm" type="file">
                     </div>
-                    <button type="submit" id="btn-send" class="btn btn-dark btn-lg btn-block"data-toggle="modal" data-target="#exampleModal">Send
+                    <button type="button" id="btn-send" class="btn btn-dark btn-lg btn-block"data-toggle="modal" data-target="#exampleModal">Send
                     </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Message sent :)</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Thank you so much for reaching out! I will get back to you within the next 24 hours.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
                 </form>  
             </div>
         </div>
     </div>      
-<!--/.Contact Form-->
-
-<!--Thank you -->
-    <section>  
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Thank you!</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                I will get back to you within the next 24 hours.
-            </div>
-            </div>
-        </div>
-        </div>
-     </section>
-<!--/.Thank you-->
-
+<!--/.Contact form + modal-->
     <hr>
 
 <!--Testimonies-->

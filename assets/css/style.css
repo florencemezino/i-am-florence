@@ -143,15 +143,8 @@
 
 /* --------------------------------------------------------------------------------------------Expertise */
 
-.skillset-photo {
-  max-width: 400px;
-  margin-left : 20px; 
-  margin-bottom: 100px;
-  height: auto;
-}
-
 .card{
-    margin: 50px 50px;
+    margin: 20px;
 }
 
 .card-header{
@@ -159,12 +152,18 @@
     font-weight: 200;
 }
 
-
 .card-title {
     font-weight: 300;
 }
 
 /*Progress bar*/
+
+.skillset-photo {
+  max-width: 400px;
+  margin-left : 20px; 
+  margin-bottom: 100px;
+  height: auto;
+}
 
 .progress-bar {
     width:100px;
@@ -177,7 +176,6 @@
   font-size: 20px;
   font-weight: 200;
 }
-
 
 /* -------------------------------------------------------------------------------------------- Projects */
 
@@ -207,13 +205,20 @@
 
 .text-tech {
     color : #D46D4E;
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 30px;
+    font-weight: 100;
 }
 
 /* -------------------------------------------------------------------------------------------- Contact*/
 
 /*Form*/
+
+.required-input:after {
+    content: "*" ;
+    color: #e32;
+    content: ' *';
+    display:inline;
+}
 
 #form-details {
     background-color: #F8F9FA;
@@ -228,7 +233,6 @@
 }
 
 .form-control {
-    font-style: italic;
     font-weight :200px;
     font-size: 15px;
 }
