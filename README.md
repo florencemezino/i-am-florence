@@ -87,7 +87,7 @@ II. Mobile Wireframes - [View](Mobile Wireframes.pdf)
 
 ...Each page features a responsive header with navigation bar and a conventional placing of logo (top left).
 There is a highlighted `Download` icon in the top right for them to download a CV.
-The first and last page has a footer with copyright information and social media links.
+There is a footer with copyright information and social media links.
 
 #### About me
 
@@ -141,11 +141,12 @@ In the mobile version the navigation bar is turn into a hamburger menu for a use
 
 ### Features to implement in the future
 
-* CV video
-* News : Podcast / Blog
-* Captcha on the contact form  in the Contact page for security purpose.
-* Option to change the language of the website to French which is the mothertongue of the applicant in order to reach the French market.
-* GDPR compliant by including a pop-up allowing all new visitors to the website to approve or deny the processing of their personal data. (relevant for the Contact page)
+* Add a CV video 
+* Create a new design for background image (about me page) mixing the current photo with a shadow of Ada Lovelace.
+* Add a "News page" : Podcast / Blog 
+* Add Captcha on the contact form in the Contact page for security purposes.
+* Add an option to change the language of the website to French which is the mothertongue of the applicant in order to reach the French market.
+* Be GDPR compliant by including a pop-up allowing all new visitors to the website to approve or deny the processing of their personal data. (relevant for the Contact page / contact form)
 
 
 ## Technologie Used 
