@@ -76,7 +76,6 @@
 .footer-title {
     text-align: center;
     line-height: 30px;
-    padding: 10px;
     font-weight: 300;
     letter-spacing:2px;
 }
@@ -166,9 +165,10 @@
     text-align : center;
     margin-top: 100px;
     color :#5E90A4;
+    letter-spacing:10px;
 }
 
-.card{
+.card {
     margin: 40px;
 }
 
@@ -221,8 +221,9 @@
 .project-title {
     font-weight: 500;
     text-align : center;
-    margin-top: 100px;
+    margin-top: 150px;
     color:#5E90A4;
+    letter-spacing:10px;
 }
 
 
@@ -239,7 +240,7 @@
 
 .text-tech {
     color : #D46D4E;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 100;
 }
 
@@ -250,6 +251,7 @@
 .contact-title {
     font-weight: 500;
     color: #5E90A4;
+    letter-spacing:10px;
 }
 
 .required-input:after {
@@ -263,6 +265,8 @@
     background-color: #F8F9FA;
     border-radius: 50%;
     margin-top: 200px;
+    padding-right: 100px;
+    padding-left : 100px;
 }
 
 .form-label {
@@ -288,7 +292,14 @@
     margin-top: 50px;
     text-align: center;
     background-color : #A3B7BE;
-    /* margin-bottom: 20px; */
+    margin-bottom: 200px;
+    padding-top : 100 px;
+    padding-bottom : 100 px;
+}
+
+.testimony-card {
+    padding : 20px;
+
 }
 
 .testimony-photo {
