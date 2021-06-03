@@ -58,6 +58,23 @@
     border-color: #fafafa;
 }
 
+/* .justify-content-end {
+    justify-content: flex-end!important;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+} */
+
 /* Footer */
 
 .footer {
@@ -92,40 +109,90 @@
 
 /* --------------------------------------------------------------------------------------------About me */
 
-/* Background image */
+/* Hero image */
 
 
-@media only screen and (max-width: 3000px) {
+@media (min-width: 576px) {
 
 .hero-image  {
   background: url(assets/images/florence_hero_image.jpeg) no-repeat fixed center;
-  background-color: #5E90A4;
-  height: 500vh;
   background-size: cover;
-  position: absolute;
-  }
+  background-position:cover;
 
-}
-.hero-text {
+ }
+
+ .text-block {
   font-family:'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
   color : #fafafa;
-  position : relative;
   text-align: left;
-  margin-top: 400px ;
-  margin-left : 150px;
-  margin-right: 150px;
-  letter-spacing:1px;
-  background-size: cover;
+  padding-top: 200px;
+  padding-left :200px;
+} 
+ 
 }
 
-  /* attributes for .hero-text position?
-  top: 100%;
-  right: 50%;
-  left :50%; */
+@media (min-width: 768px) { 
 
+.hero-image  {
+  background-image: url(assets/images/florence_hero_image.jpeg) no-repeat fixed center;
+  height: 100%;
+  background-size: cover;
+  background-position:cover;
+
+ }
+
+ .text-block {
+  font-family:'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
+  color : #fafafa;
+  text-align: left;
+} 
+ 
+ }
+
+@media (min-width: 992px) { 
+
+.hero-image  {
+  background-image: url(assets/images/florence_hero_image.jpeg) no-repeat fixed center;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+ background-position:cover;
+
+ }
+
+ .text-block {
+  font-family:'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
+  color : #fafafa;
+  text-align: left;
+} 
+
+}
+
+@media (min-width: 1200px) { 
+
+.hero-image  {
+  background-image: url(assets/images/florence_hero_image.jpeg) no-repeat fixed center;
+  height: 100%;
+  background-size: cover;
+  background-position:cover;
+
+ }
+
+ .text-block {
+  font-family:'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
+  color : #fafafa;
+  text-align: left;
+} 
+
+}
+ 
 .lead .blockquote {
     font-size: 100px;
 }
+
+
+
+
 
 /* Typewriter effect */
 
