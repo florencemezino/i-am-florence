@@ -213,6 +213,10 @@
 
 /*Form*/
 
+.contact-title {
+    font-weight: 200;
+}
+
 .required-input:after {
     content: "*" ;
     color: #e32;
