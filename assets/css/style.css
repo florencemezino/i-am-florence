@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 
-*{
+*{  border:0;
     margin:0;
     padding:0;
-    border:0;
 }
 
 .body {
-    font-family: 'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
     color: #343A40 ;
+    font-family: 'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* -------------------------------------------------------------------------------------------- General*/
@@ -78,15 +77,16 @@
 /* Footer */
 
 .footer {
-    background-color: #343A40;
     color: #fafafa;
+    background-color: #343A40;
+    
 }
 
 .fixed-bottom {
-    position: fixed;
-    right: 0;
     bottom: 0;
     left:0;
+    position: fixed;
+    right: 0;
     z-index:1030;
 }
 
@@ -116,17 +116,20 @@
 
 .hero-image  {
   background: url(assets/images/florence_hero_image.jpeg) no-repeat fixed center;
+  width: 100%;
   background-size: cover;
   background-position:cover;
 
  }
 
  .text-block {
+  color: #fafafa;
   font-family:'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
-  color : #fafafa;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
   text-align: left;
-  padding-top: 200px;
-  padding-left :200px;
+  margin-left:200px;
 } 
  
 }
@@ -134,7 +137,8 @@
 @media (min-width: 768px) { 
 
 .hero-image  {
-  background-image: url(assets/images/florence_hero_image.jpeg) no-repeat fixed center;
+  background: url(assets/images/florence_hero_image.jpeg) no-repeat fixed center;
+  width: 100%;
   height: 100%;
   background-size: cover;
   background-position:cover;
@@ -142,9 +146,14 @@
  }
 
  .text-block {
+  color: #fafafa;
   font-family:'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
-  color : #fafafa;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-left: 20px;
   text-align: left;
+  margin-top:200px;
+  margin-left:200px;
 } 
  
  }
@@ -152,26 +161,8 @@
 @media (min-width: 992px) { 
 
 .hero-image  {
-  background-image: url(assets/images/florence_hero_image.jpeg) no-repeat fixed center;
+  background: url(assets/images/florence_hero_image.jpeg) no-repeat fixed center;
   width: 50%;
-  height: 100%;
-  background-size: cover;
- background-position:cover;
-
- }
-
- .text-block {
-  font-family:'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
-  color : #fafafa;
-  text-align: left;
-} 
-
-}
-
-@media (min-width: 1200px) { 
-
-.hero-image  {
-  background-image: url(assets/images/florence_hero_image.jpeg) no-repeat fixed center;
   height: 100%;
   background-size: cover;
   background-position:cover;
@@ -179,9 +170,39 @@
  }
 
  .text-block {
+  color: #fafafa;
   font-family:'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
-  color : #fafafa;
+  font-size: 60px;
+  padding-top: 20px;
+  padding-left: 20px;
   text-align: left;
+  margin-top:400px;
+  margin-left:200px;
+  margin-bottom: 300px;
+} 
+
+}
+
+@media (min-width: 1200px) { 
+
+.hero-image  {
+  background: url(assets/images/florence_hero_image.jpeg) no-repeat fixed center;
+  height: 100%;
+  background-size: cover;
+  background-position:cover;
+
+ }
+
+ .text-block {
+  color: #fafafa;
+  font-family:'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 80px;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+  margin-top:600px;
+  margin-left:200px;
+  margin-bottom: 300px;
 } 
 
 }
@@ -189,9 +210,6 @@
 .lead .blockquote {
     font-size: 100px;
 }
-
-
-
 
 
 /* Typewriter effect */
@@ -300,6 +318,9 @@
     margin-right: 120px; 
 }
 
+.album {
+    margin-bottom:200px;
+}
 
 .card-album {
     margin:-150px;
