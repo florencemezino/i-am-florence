@@ -25,43 +25,34 @@ I. As a recruiter and new visitor to the website :
 
 1. I want to have an overview of the applicant’s tech profile as soon as I open the website so that I can determine if it matches my job offer.
 - Upon entering the website, recruiters are automatically greeted with a clear presentation of the applicant profile and a easy readable navigation bar to go to the page of their choice.
-- The hero image give the tone as we see the applicant `TO BE COMPLETED depending of which photo will be used`
-- The recruiter has 3 options : Click one of the 2 call to action buttons which are `Download CV and Portfolio` and `Get in touch` or scroll down to read more about the applicant expertise and projects.
+- The hero image gives the tone as we see a professionnal photo of the applicant
+- The recruiter has 3 options : Click one of the 2 call to action buttons which are `Download CV` and `Get in touch` or use the navigation bar to navigate through the pages.
 
 2. I want to see an overview of fields of expertise so that I can see if the applicant as the necessary skills and competencies for the job.
-- 
-- 
-- 
+- Upon opening the expertise page, the recruiter will see a section displaying 6 domains of expertise.
+- Each domain of expertise gives a brief description of the applicant abilities to work and evolve in these fields.
 
 3. I want to have an overview of the tech skillset of the applicant so I can determine if the person will be able to do the main required tasks.
-- 
-- 
-- 
+- In the expertise page, the recruiter get access to a progress bars section displaying the level in each technologies.
+- The recruiter can appreciate the level of knowledge in terms of front end, back end and diverses frameworks.
+
  
 4. I want to see the applicant education background so that I can check if the applicant as a diploma and did courses/bootcamp in the required field.
-- 
-- 
-- 
+- In the projects page the recruiter can see a timeline of the applicant coding experience. Different challenges and courses are displayed at the top the page.
+- To have more information about the applicant background the recruiter can download a CV in pdf format.
 
 5. I want to see if the applicant as professionnal experiences so that I can assess if the applicant has experience working in work environment and in a team.
-- 
-- 
-- 
+- The projects portfolio in the projects page displays 4 profesionnal projects with a direct access to github.
+- To have more information about the applicant professionnal experience the recruiter can download a CV in pdf format.
 
 6. I want to see a portfolio with nice visuals and clear description of the tech skills used for each project so that I can evaluate the applicant level of expertise.
-- 
-- 
-- 
+- The recruiter can see 4 projects. Each project has an image of the website design, a small description and a description of the technologies used to make the project.
 
 7. I want to have an option to contact the applicant so that I can explain the mission and give details about the job.
-- 
-- 
-- 
+- The recruiter can access a contact page with a contact form in order to send an email to the applicant. This way the recruiter can share their opportunity in a personal level.
 
 8. I want to see testimonies / recommendations from people who worked with the applicant, so that I can have idea about how it is to work with the applicant
-- 
-- 
-- 
+- The recruiter can see 4 testimonials in order to see recommendations from other professionnals. It will give the applicant more credibility.
 
 
 II. As a recruiter et returning visitor  to the website :
