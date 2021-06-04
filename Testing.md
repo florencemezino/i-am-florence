@@ -59,16 +59,15 @@ II. As a recruiter et returning visitor  to the website :
 
 
 1. As a recruiter, I want to see if the applicant is currently working on a project / open source project so that I can see if the applicant is an active programmer.
-- 
-- 
-- 
+- In the portfolio section , the coding journey timeline shows clearly if the applicant is on a ongoing course. 
+The date is mentionned  on each experience and education 
+
 
 2. As a recruiter, I want to see if the applicant participates to coding challenges and hackathons so that I can see if the person is curious and like learning new things.
-- 
-- 
-- 
+- In the portfolio section , the coding journey timeline shows clearly if the applicant is on a ongoing coding challenge.
 
-3. As a recruiter, I want to be able to download a copy of a CV and portfolio so I can share with other team members for a second opinion about the applicant profile.
+
+3. As a recruiter, I want to be able to download a copy of a CV so I can share with other team members for a second opinion about the applicant profile.
 - 
 - 
 - 
@@ -113,7 +112,7 @@ III. Frequent User Goals
 - 
 
 
-3. Call out / Profile description
+3. Profile description
 - Go to "About me" from a desktop
 - 
 - 
@@ -129,7 +128,7 @@ III. Frequent User Goals
 - Navbar code is identical on all html pages. Testing already completed.
 
 
-2. Cards for domains of Expertise
+2. Cards for fields of Expertise
 - Go to "Expertise" from a desktop
 - 
 - 
@@ -137,7 +136,7 @@ III. Frequent User Goals
 - 
 - 
 
-3. Graph for skills set
+3. Porgressbar for skills set
 - Go to "Expertise" from a desktop
 - 
 - 
@@ -161,7 +160,7 @@ III. Frequent User Goals
 - 
 - 
 
-3. Caroussels for projects portfolio
+3. Album for projects portfolio
 - 
 - 
 - 

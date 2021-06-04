@@ -61,24 +61,16 @@ Roboto is a clean font used frequently in programming, so it is both attractive 
 Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic. 
 
 * Links
-* [CV](CV Florence Mezino.pdf)
-* [Portfolio](Portfolio - Fake projects.pdf)
+* [CV Florence Mezino](assets/files/cv_florence_mezino.pdf)
+* [Portfolio](assets/files/portfolio.pdf)
 
 ### Wireframes
 
-I. All Wireframes - [View](assets/wireframe/All Wireframes.pdf)
+I. All Wireframes - [View](assets/wireframes/all_wireframes.pdf)
 
-1. Web Wireframes - [View](Web Wireframes.pdf)
-- [Aboutme]()
-- [Expertise]()
-- [Projects]()
-- [Contact]()
+1. Web Wireframes - [View](assets/wireframes/web_wireframes.pdf)
 
-II. Mobile Wireframes - [View](Mobile Wireframes.pdf)
-- [Aboutme]()
-- [Expertise]()
-- [Projects]()
-- [Contact]()
+II. Mobile Wireframes - [View]((assets/wireframes/mobile_wireframes.pdf
 
 ## Features
 
