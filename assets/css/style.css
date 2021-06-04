@@ -3,7 +3,6 @@
 *{  border:0;
     margin:0;
     padding:0;
-
 }
 
 .body {
@@ -73,20 +72,18 @@
 .footer {
     color: #fafafa;
     background-color: #343A40;
-    display: flex;
+    position: static;
 }
 
 .fixed-bottom {
-    bottom: 0;
-    left:0;
     position: fixed;
-    right: 0;
-    z-index:1030;
+    bottom:0;
+    z-index:1020;
 }
 
 .footer-title {
     text-align: center;
-    line-height: 30px;
+    line-height: 25px;
     font-weight: 300;
     letter-spacing:2px;
 }
@@ -111,12 +108,11 @@ html, body, .hero-image .hero-text{
 }
 
 .hero-image {
-    background-image: url('assets/images/css/florence_hero_image.jpeg') no-repeat;
+    background: url('assets/images/css/florence_hero_image.jpeg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     justify-content: center;
     position: relative;
     margin-top: -80px;
@@ -215,7 +211,6 @@ h2 {
 .progress-grid {
     margin-bottom:200px;
     margin-top: 100px;
-
 }
 
 .progress-bar {
@@ -258,7 +253,7 @@ h2 {
 .projects-photo {
     max-width: 400px;
     margin-top: 200px;
-    margin-right: 120px; 
+    margin-right: 60px; 
 }
 
 .album {
@@ -324,8 +319,8 @@ h2 {
     text-align: center;
     background-color : #A3B7BE;
     margin-bottom: 200px;
-    padding-top : 100 px;
-    padding-bottom : 100 px;
+    padding-top : 100px;
+    padding-bottom : 100px;
 }
 
 .testimony-card {
@@ -349,6 +344,49 @@ h2 {
 
 /* -------------------------------------------------------------------------------------------- Media queries*/
 
-@include media-breakpoint-between(sm, md) {
-
+/* .custom-class {
+  display: none;
 }
+@include media-breakpoint-up(sm) {
+  .hero-image {
+  background: url('assets/images/css/florence_hero_image.jpeg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    position: relative;
+  }
+}
+
+
+@include media-breakpoint-up(sm) {
+  .hero-text {
+  display: block;
+  }
+}
+
+
+.hero-image {
+    background: url('assets/images/css/florence_hero_image.jpeg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    position: relative;
+    margin-top: -80px;
+    top: 12%;
+    bottom: -400%;
+    width: 100%;
+    height: 100%;
+}
+
+ .hero-text {
+  color: #fafafa;
+  font-family:'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 350px;
+  top:100%;
+}  */
