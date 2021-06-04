@@ -36,15 +36,21 @@
 
 /* Navbar */
 
-.nav-link {
+.nav-item {
     color: #fafafa;
     font-weight: 300;
     letter-spacing:2px;
     margin-left: 30px;
 }
 
-.nav-link:hover {
+.nav-item:hover {
     color: #D46D4E;
+    text-decoration: none;
+}
+
+.work-nav {
+    margin-right: 200px;
+    display: inline-block;
 }
 
 /* Navbar toggler */
@@ -56,23 +62,6 @@
 .custom-toggler.navbar-toggler {
     border-color: #fafafa;
 }
-
-/* .justify-content-end {
-    justify-content: flex-end!important;
-}
-
-.navbar-collapse {
-    flex-basis: 100%;
-    flex-grow: 1;
-    align-items: center;
-}
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-} */
 
 /* Footer */
 
@@ -111,74 +100,27 @@
 
 /* Hero image */
 
+.hero-image {
+    height: 100vh;
+    background: url('assets/images/css/florence_hero_image.jpeg') no-repeat bottom left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
-@media (min-width: 576px) {
+    justify-content: center;
 
-.hero-image  {
-  background: url(assets/images/florence_hero_image.jpeg) no-repeat fixed center;
-  background-size: cover;
-  background-position:cover;
-
- }
-
-.hero-text {
-  color: #fafafa;
-  font-family:'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
-  text-align: left;
-} 
- 
+    /* position: relative; */
 }
-
-@media (min-width: 768px) { 
-
-.hero-image  {
-  background: url(assets/images/florence_hero_image.jpeg) no-repeat fixed center;
-  background-size: cover;
-  background-position:cover;
-
- }
-
-.hero-text {
-  color: #fafafa;
-  font-family:'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
-  text-align: left;
-} 
- 
- }
-
-@media (min-width: 992px) { 
-
-.hero-image  {
-  background: url(assets/images/florence_hero_image.jpeg) no-repeat fixed center;
-  background-size: cover;
-  background-position:cover;
-
- }
-
-.hero-text {
-  color: #fafafa;
-  font-family:'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
-  text-align: left;
-} 
-
-}
-
-@media (min-width: 1200px) { 
-
-.hero-image  {
-  background: url(assets/images/florence_hero_image.jpeg) no-repeat fixed center;
-  background-size: cover;
-  background-position:cover;
-
- }
 
  .hero-text {
   color: #fafafa;
   font-family:'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
   text-align: left;
+  margin-left: 80px;
+  margin-top: 300px;
 } 
 
-}
  
 .lead .blockquote {
     font-size: 100px;

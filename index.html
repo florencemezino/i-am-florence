@@ -20,60 +20,67 @@
 <body>
     
 <!--Navigation-->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><i class="fas fa-laptop-code fa-lg vw"></i>Florence<br><small>Codes the Machine</small></a>
-                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse nav justify-content-end" id="navbarSupportedContent">
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item navhome active">
-                            <a class="nav-link" aria-current="page" href="index.html">About me</a>
-                        </li>
-                        <li class="nav-item navhome">
-                            <a class="nav-link" href="expertise.html">Expertise</a>
-                        </li>
-                        <li class="nav-item navhome">
-                            <a class="nav-link navhome" href="projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item navhome">
-                            <a class="nav-link " href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <button type="button" class="btn btn-light btn-sm bg-light" onclick=" window.open('assets/files/cv_florence_mezino.pdf'); return true;">Download CV</button>
-                        </li>
-                    </ul>
-                </div>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-laptop-code fa-lg vw"></i>Florence<br><small>Codes the Machine</small></a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2">
+                        <a class="nav-item" aria-current="page" href="index.html">About me</a>
+                    </li>
+                    <li class="nav-item navhome">
+                        <a class="nav-item" href="expertise.html">Expertise</a>
+                    </li>
+                    <li class="nav-item navhome">
+                        <a class="nav-item navhome" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item navhome">
+                        <a class="nav-item " href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="work-nav list-inline-item">
+                        <button type="button" class="btn btn-light btn-sm bg-light" onclick=" window.open('assets/files/cv_florence_mezino.pdf'); return true;">Download CV</button>
+                         <a target="_blank" href="https://github.com/florencemezino">
+                        <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                        <span class="sr-only">Github</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
 <!--/.Navigation-->
 
 <!-- Hero image +  hero text with background image-->
-    <article>
-        <div class="container-fluid hero-image">
-            <div class="hero-image" style="background-image: url('assets/images/florence_hero_image.jpeg'); width: 100%; height:100%;">
-                <div class="hero-text">
-                    <h1 class="display-6">Hi,</h1>
-                    <h1 class="typewriter display-2">I am Florence</h1>
-                    <h1 class="display-6">Full Stack Software Developer</h1>
-                    <blockquote class="lead blockquote">
-                        <span class="badge badge-pill badge-success">Status</span> Actively looking for an opportunity to make the world wide web more accessible, ethical and beautiful.
-                    </blockquote>
-                    <blockquote class="lead blockquote">
-                        <p>I have always been fascinated about how technology evolves and impacts our life.
-                        <br> My ultimate goal is to build a better and brighter society for our planet and all its beings best interests.</p>
-                    </blockquote>
-                    <button type="button" class="btn btn-dark btn-lg" onclick=" window.open('assets/files/cv_florence_mezino.pdf'); return true;">Download CV</button>
-                    <button type="button" class="btn btn-light btn-lg" onclick=" window.open('contact.html','_self');">Get in touch</button>
+
+    <div class="container-fluid hero-image" style="background-image: url('assets/images/florence_hero_image.jpeg'); width: 100%; height:100vh;">
+        <article class="container-fluid hero-image">
+            <div class="row">
+                <div class="col-12">
+                    <section class="hero-text">
+                        <h1 class="display-6">Hi,</h1>
+                        <h1 class="typewriter display-2">I am Florence</h1>
+                        <h1 class="display-6">Full Stack Software Developer</h1>
+                        <blockquote class="lead blockquote">
+                            <span class="badge badge-pill badge-success">Status</span> Actively looking for an opportunity to make the world wide web more accessible, ethical and beautiful.
+                        </blockquote>
+                        <blockquote class="lead blockquote">
+                            <p>I have always been fascinated about how technology evolves and impacts our life.
+                            <br> My ultimate goal is to build a better and brighter society for our planet and all its beings best interests.</p>
+                        </blockquote>
+                        <button type="button" class="btn btn-dark btn-lg" onclick=" window.open('assets/files/cv_florence_mezino.pdf'); return true;">Download CV</button>
+                        <button type="button" class="btn btn-light btn-lg" onclick=" window.open('contact.html','_self');">Get in touch</button>
+                    </section>
                 </div>
             </div> 
-        </div>
-    </article>    
+        </article> 
+    </div>   
 <!--Hero image +  hero text with background image -->
 
 
@@ -102,12 +109,6 @@
                                 <a target="_blank" href="https://www.linkedin.com/in/florence-mezino-72a98b1a/">
                                     <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
                                     <span class="sr-only">LinkedIn</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a target="_blank" href="https://github.com/florencemezino">
-                                    <i class="fab fa-github fa-2x" aria-hidden="true"></i>
-                                    <span class="sr-only">Github</span>
                                 </a>
                             </li>
                         </ul>
