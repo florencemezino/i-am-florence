@@ -53,6 +53,10 @@
     display: inline-block;
 }
 
+.nav-item a.active {
+     color: #D46D4E !important;
+}
+
 /* Navbar toggler */
 
 .custom-toggler .navbar-toggler-icon {
@@ -109,6 +113,7 @@
     background-size: cover;
 
     justify-content: center;
+    margin-top: 500px;
 
     /* position: relative; */
 }

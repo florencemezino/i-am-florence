@@ -68,12 +68,12 @@ The date is mentionned  on each experience and education
 
 
 3. As a recruiter, I want to be able to download a copy of a CV so I can share with other team members for a second opinion about the applicant profile.
-- 
-- 
-- 
+- The recruiter has the possibility to use the download CV button in the About me page to get a version of the CV in pdf.
+- The recruiter can also download a cv using the button in the navigation bar (top left)
+- The recruiter has also a direct access to git hub with an icon in the navigation bar so they can have access to more portfolio project.
 
-4. As a recruiter I want to have access easily to personal information and contact details so that I can reach out to the applicant whenever is needed.
-- 
+4. As a recruiter I want to have access to personal information and contact details so that I can reach out to the applicant whenever is needed.
+- Contact information are in the CV. 
 - 
 - 
 
