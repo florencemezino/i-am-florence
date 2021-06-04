@@ -68,8 +68,7 @@
 .footer {
     color: #fafafa;
     background-color: #343A40;
-    padding: 0;
-    
+    display: flex;
 }
 
 .fixed-bottom {
@@ -103,7 +102,7 @@
 
 .hero-image {
     height: 100vh;
-    background: url('assets/images/css/florence_hero_image.jpeg') no-repeat bottom left fixed;
+    background: url('assets/images/css/florence_hero_image.jpeg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
