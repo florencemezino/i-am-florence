@@ -176,13 +176,13 @@ In the mobile version the navigation bar is turn into a hamburger menu for a use
 Bootstrap was used to assist with the responsiveness and styling of the website.
 
 2. [Hover.css](https://ianlunn.github.io/Hover/)
-Hover.css was used on `TO BE COMPLETED` icons in the footer to add the float transition while being hovered over.
+Hover.css was used on`social media icons for styling and give dynamim
 
 3. [Google Fonts](https://fonts.google.com/)
-Google fonts were used to import the `TO BE COMPLETED` font into the style.css file which is used on all pages throughout the project.
+Google fonts were used to import the `Roboto` font into the style.css file which is used on all pages throughout the project.
 
 4. [Font Awesome](https://fontawesome.com/)
-Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+Font Awesome was used on all pages throughout the website to add icons for aesthetic purposes.
 
 5. [Git](https://git-scm.com/)
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
@@ -200,7 +200,7 @@ Testing information can be found in the following file [Testing.md](https://gith
 ## Deployment
 
 ### GitHub Pages
-The project was deployed to GitHub Pages using the following steps...
+The project was deployed to GitHub Pages using the following steps :
 
 1. Log in to GitHub and locate the GitHub Repository.
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
@@ -236,7 +236,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 
-Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+All content for illustrations (pictures, icons, photos) can  be found within the assests repositery.
 
 ## Credits
 
@@ -256,6 +256,8 @@ Readme.md sample from Anna Greaves's portrait artist [View](https://github.com/A
 
 * CSS tricks to amend Bootdtrap [View](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background)
 
+* Behance for design inspirations [View](https://www.behance.net/)
+
 ### Media
 
 * All photos were produced by [Orekanna Photography](https://www.orekanna.com/) specifically for this project.
@@ -273,7 +275,7 @@ Readme.md sample from Anna Greaves's portrait artist [View](https://github.com/A
 
 #### Question 1 : Are the projects images displayed in the portfolio real projects ?
 
-Current projects displayed are fake projects in order to illustrate the features of the portfolio. It will be replaced at the end of the scholarship with Code Institute.
+Current projects displayed are fake projects in order to illustrate the features of the portfolio. It will be replaced at the end of the scholarship with Code Institute with real projects.
 
 #### Question 2 : Which framework has been used to develop this portfolio site project ?
 
