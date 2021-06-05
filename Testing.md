@@ -9,10 +9,10 @@ View the live project [here](link)
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-W3C Markup Validator - `Results`
-W3C CSS Validator - `Results`
+W3C Markup Validator - `Success`
+W3C CSS Validator - `Success`
 
-Lighthouse - `Results` (picture of the result)
+Lighthouse - [Results](assets/testing/lighthouse_results_05-06-2021.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -73,21 +73,16 @@ The date is mentionned  on each experience and education
 - The recruiter has also a direct access to git hub with an icon in the navigation bar so they can have access to more portfolio project.
 
 4. As a recruiter I want to have access to personal information and contact details so that I can reach out to the applicant whenever is needed.
-- Contact information are in the CV. 
-- 
-- 
+- Contact information are available to the recruiter in the CV.  
+- For data protection reason, I have located these sensitive information only in the CV and not on the website itself.
 
 #### Frequent User Goals
 
 1. A a recruiter, I want to see if the applicant participates to tech conferences so that I can assess if the applicant is open minded and focus on self development.
-- 
-- 
-- 
+- A timeline in the projects page is dedicated to this purpose. Important tech conferences / key events can be listed in this timeline.
 
 2. As a recruiter, I want to see how the applicant works on its digital presence so that I can determine if the applicant is able to share knowledge and receive feedback.
-- 
-- 
-- 
+- Social media links have been added to the portfolio site in order to reinforce the fact that the applicant has a digital presence and a profesionnal network per se.
 
 
 ### Manual (logical) testing of all elements and functionality on every page.
