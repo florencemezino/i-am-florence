@@ -123,86 +123,73 @@ The date is mentionned  on each experience and education
 - Navbar code is identical on all html pages. Testing already completed.
 
 2. Footer
+- Fooder code is identical on all html pages. Testing already completed.
 
-
-2. Cards for fields of Expertise
+3. Cards for fields of Expertise
 - Go to "Expertise" from a desktop
-- 
-- 
-- 
-- 
-- 
+- The Expertise page title "Skillset" appears with the  icon in front of it.
+- Check if the 6 fields of expertise appears like 3 cards on each row and check responsiveness.
+- Check the ligh frey background behind the field of expertise if it appears.
+
 
 3. Porgressbar for skills set
 - Go to "Expertise" from a desktop
-- 
-- 
-- 
-- 
-- 
+- Check the photo to see if it is responsive and if it is in front of the progress bar on the same row.
+- Check the progress bar to verify layout and color.
+- Check if the tech languages labels appears for each bar.
+- Check if percentage appears per bar.
 
 
 > For every point mentionned above : Repeat verification of functionality and responsiveness on mobile phone and tablet via Developer Tool,
 
 
-
 #### Projects
 
-1. Navigation bar
+1. Header / Navigation bar
 - Navbar code is identical on all html pages. Testing already completed.
 
-2. Timeline for work experience
+2. Footer
+- Footer code is identical on all html pages. Testing already completed.
+
+3. Timeline for work experience
 - Go to "Projects" from a desktop
-- 
-- 
-- 
-- 
-- 
+- Check if the title " Coding journey" appears.
+- Check if the timeline appears vertically with title of experience, description, logo and date.
+- Check if 4 experiences shows up in the timeline.
+- Check if the photo is on the same row a the timeline.
 
-3. Album for projects portfolio
-- 
-- 
-- 
-- 
-- 
+4. Album for projects portfolio
+- Check if 4 album components presenting 4 projects appear and chekc if it is 2 projects on each row.
+- Check the quality of the image displayed for each project
+- Check if "View Github repo" button works for each project. 
+- Check if the languages used to make these 4 fake projects are displayed in the bottom right corner of the albun component. 
+- Check if Like button works ( see future features section in readme.md file)
 
-
-4. Description containers grid for project portfolio 
-- 
-- 
-- 
-- 
-- 
 
 > Repeat verification of functionality and responsiveness on mobile phone and tablet via Developer Tool
 
 
 #### Contact
 
-1. Navigation bar
+1. Header / Navigation bar
 - Navbar code is identical on all html pages. Testing already completed.
 
-2. Contact form
-- Go to "Contact" from a desktop
-- 
-- 
-- 
-- 
-- 
+2. Footer
+- Footer code is identical on all html pages. Testing already completed.
 
-3. Cards testimonies
+3. Contact form
 - Go to "Contact" from a desktop
-- 
-- 
-- 
-- 
+- Check contact form layout and colors
+- Check if functionality " required field" works properly
+- Check for the contact form to clear up as soon as the form if submitted with the send button
+- Check if light grey background is in place behind the contact form
+- Check if the photo is on the same row , side by side with the contact form
 
-4. Footer
+4. Cards testimonies/ recommendations
 - Go to "Contact" from a desktop
-- 
-- 
-- 
-- 
+- Check the 4 testimonies / recommendations at the bottom of the page above the footer to see responsiveness.
+- Check if the button with the name of each person redirects to more information about the person via a new tab.
+
 
 > Repeat verification of functionality and responsiveness on mobile phone and tablet via Developer Tool
 
@@ -215,8 +202,9 @@ The date is mentionned  on each experience and education
 
 ## Known Bugs
 
+* Hero image and profile description not responsive
+* Footer overlapping on content on mobile version
 
-* Hero image not responsive 
 
 ## Feedback
 
