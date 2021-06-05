@@ -15,7 +15,7 @@ End users for this project are recruiters considering to hire an applicant.
 
 2.  Profile 
 
-Recruiters interacting with the site are English speaker and lives mainly in the Netherlands (but it can be anywhere in the world). Below we can fidn their profile :
+Recruiters interacting with the site are English speaker and lives mainly in the Netherlands (but it can be anywhere in the world). Below we can find their profile :
 
 * Corporate HR recruitment specialist
 * Start up business owner
@@ -49,16 +49,41 @@ Recruiters interacting with the site are English speaker and lives mainly in the
 
 ### Design
 
-* Colour Scheme
-The two main colours used for this project are `color 1` and `color 2`. 
-The background color is  white or light gray, or dark gray or black background`.
+1. Colour Scheme
+The two main colours used for this project are as follow : 
+* `#5E90A4` : clear blue to match the [hero image](assets//images/florence_hero_image)
+* `#D46D4E` : dark orange
+* `##343A40` : dark grey
+* `#fafafa` : cream white
+* `#F8F9FA` : light grey
 
-* Typography
-The `Roboto` font is the main font used throughout the whole website with `Sans Serif` as the fallback font in case for any reason the font isn't being imported into the site correctly. 
-Roboto is a clean font used frequently in programming, so it is both attractive and appropriate for this portfolio project. It has a techy, machine-like feel to it. The wide-open characters also give it a friendly touch.
 
-* Imagery
-Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic. 
+2. Typography
+The `Roboto` font is the main font used throughout the whole website with `Open Sans`, `Helvetica Neue`, `Sans Serif` as fallback fonts in case for any reason the font isn't being imported into the site correctly. 
+Roboto is a clean font used frequently in programming, so it is both attractive and appropriate for this portfolio project. It has a techy, machine-like feel to it. The wide-open characters also give it a friendly touch and this is the goal of this personal portfolio.
+
+3. Imagery
+Imagery is important in this portfolio site. 
+
+a. Personal photos
+All personal photos  were taken by a photography studio `Orekanna photography` specifically for this project.
+Each photo has been following a photography moodboard to be in alignment with the purpose of this website and each pages.
+
+* The large background [hero image](assets//images/florence_hero_image.jpeg) is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic. 
+* [The bridge photo](assets/images/skillset_photo.jpeg) has been thought to match the dynamic of a progress bar.
+* On the projects page, we can find a photo of the applicant looking at a laptop while smiling to showcase enjoyable coding experiences. View [here](assets/images/projects_photo.jpeg)
+* [The contact page photo](assets/images/florence_contact.jpeg) has a professionnal look as the applicant is typing on a laptop. As it is place next to the contact form, it encourages the recruiter to get in touch. 
+
+ b. Portfolio - fake projects
+
+ Random web designs were selected on a website called [Behance](ttps://www.behance.net) in order to illustrate website projects.
+
+
+c. Testimonies/Recommendations
+
+Miniatures photos were used to illustrates the recommendations towards the applicant. (free images)
+
+
 
 * Links
 * [CV Florence Mezino](assets/files/cv_florence_mezino.pdf)
@@ -76,41 +101,38 @@ II. Mobile Wireframes - [View]((assets/wireframes/mobile_wireframes.pdf
 
 * The website is structured in 4 pages : `About me`, `Expertise`, `Projects`, `Contact` and appears to be also a scroll one page website also. 
 * The website's pages and different features are responsive on all device sizes. 
-
-...Each page features a responsive header with navigation bar and a conventional placing of logo (top left).
-There is a highlighted `Download` icon in the top right for them to download a CV.
-There is a footer with copyright information and social media links.
+* Each page features a responsive header with navigation bar and a conventional placing of logo (top left).
+* There is a highlighted `Download` icon in the top right for them to download a CV.
+* There is a footer with copyright information and social media links.
 
 #### About me
 
-...The `About me` page features a special hero image that cover the entire background of the first page. 
-On all devices a full screen static image with a subtle motion effect is seen when opening the website to give som dynamism.
-The purpose of this hero image element is to give maximum impact when opening the website.
-The main heading "Hi, I am Florence" appears with a typewritter effect to showcase a striking professionnal introduction.
-At the bottom of the page (above the footer) are two call to action buttons: Download CV and Hire me. The Hire me button is highlighted and redirect the user to the `Contact` page.
+* The `About me` page features a special hero image that cover the entire background of the first page. The purpose of this hero image element is to give maximum impact when opening the website.
+* The main heading "Hi, I am Florence" appears with a typewritter effect to give a dynamic introduction. This feature is in coherence with the purpose of the portfolio in a sense of typing codes.
+* At the bottom of the page (above the footer) are two call to action buttons: Download CV and Hire me/Getin touch. This button is highlighted and redirect the user to the `Contact` page.
 
 #### Expertise 
 
-...The `Expertise` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop.
-- 3 domains of expertise are displayed : Web developement (front end, back end), UX / UI design and security
-- A graph is illustrating the skill set. Each level in the skill is represented in percentage to give the recruiter a picture of the applicant profile.
-- A soft skills section appears in this page also to show applicant global competencies.
+* The `Expertise` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop.
+* 6 fields of expertise are displayed : Web developement (front end, back end), UX / UI design, business, deployment processes and security.
+* A progress bar is illustrating the skill set. Each level in the skill is represented in percentage to give the recruiter a picture of the applicant profile.
+* A soft skills section appears in this page also to show applicant global competencies.
 
 
 #### Projects 
 
-...The `Projects` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop. 
-- Timeline feature is showing different work experiences, education, participation to coding challenges, hackathons and tech conferences.
-- 4 fake projects are displayed with 3 images each and a description (release date and technologies used)
+* The `Projects` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop. 
+* Timeline feature is showing different work experiences, education, participation to coding challenges, hackathons and tech conferences.
+* 4 fake projects are displayed with 3 images each and a description (release date and technologies used)
 
 #### Contact 
 
-...The `Contact` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop. 
-- Contact form is available for the recruiter to get in touch with the applicant and it requests the recruiter's name and email. 
+* The `Contact` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop. 
+* Contact form is available for the recruiter to get in touch with the applicant and it requests the recruiter's name and email. 
 There is also an option to upload a file if the recruiter has a document to share with the applicant explaining the details of the job opportunity.
 The bottom of the form contains a Send button.
-- An image of a map appears on the desktop version
-- 2 to 3 testimonies are displayed at the bottom of the page above the footer to reinforce applicant's credibility.
+*An image of a map appears on the desktop version
+* 4 testimonies/reconnmendations are displayed at the bottom of the page above the footer to reinforce applicant's credibility.
 
 ### Existing features 
 
@@ -120,13 +142,13 @@ The bottom of the form contains a Send button.
 * Header Navigation Bar - Allows all users to easily navigate all the website's pages and find what they are looking for quickly.
 In the mobile version the navigation bar is turn into a hamburger menu for a user friendly experience.
 * Footer copyright info -  Exists on the first and last page for brand and content protection.
-* Footer social icons - Allows recruiters to be redirected to social media platform  to stay connected.
-* Call to action buttons - The download icon is on every page and allows the recruiter to download the applicant's CV.
+* Footer social icons - Allows recruiters to be redirected to social media platform to stay connected.
+* Call to action buttons - The download button is on every page and allows the recruiter to download the applicant's CV. Next to it you will find a link to applicant git hub profile for the recruiter to see more projects.
 
 2. Page features specificities
 
-* `About me`: Allows recruiters to connect emotionnally thanks to a hero image representing the applicant moving in motion and the typewritting feature for "Hi, I am Florence"
-* `Expertise` : Allows recuiters to identify the applicant's domain of expertise and skills. The percentage from the skillset graph is gradually increasing when the user arriver on the page. It brings dynamism and suggest growth and potential improvment.
+* `About me`: Allows recruiters to connect emotionnally thanks to a hero image representing the applicant and the typewritting feature for "Hi, I am Florence"
+* `Expertise` : Allows recuiters to identify the applicant's fields of expertise and skills. The percentage from the skillset progress bar is gradually increasing when the user arrives on the page. It brings dynamism and suggest growth and potential improvment.
 * `Projects` : Allows recruiters to see a portfolio showcasing the designs and the techonolgies used in a aesthetic way. On mobile users will have to swipe right to see all available photos for each project.
 * `Contact` : Allows recruiters to contact the applicant with a user friendly contact form.
 

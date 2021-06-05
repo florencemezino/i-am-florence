@@ -21,7 +21,7 @@ Most common paths through the website:
 2. About me > Contact (via the Hire me button) > Projects > Expertise
 
 
-I. As a recruiter and new visitor to the website :
+#### As a recruiter and new visitor to the website :
 
 1. I want to have an overview of the applicant’s tech profile as soon as I open the website so that I can determine if it matches my job offer.
 - Upon entering the website, recruiters are automatically greeted with a clear presentation of the applicant profile and a easy readable navigation bar to go to the page of their choice.
@@ -55,7 +55,7 @@ I. As a recruiter and new visitor to the website :
 - The recruiter can see 4 testimonials in order to see recommendations from other professionnals. It will give the applicant more credibility.
 
 
-II. As a recruiter et returning visitor  to the website :
+#### As a recruiter et returning visitor  to the website :
 
 
 1. As a recruiter, I want to see if the applicant is currently working on a project / open source project so that I can see if the applicant is an active programmer.
@@ -77,7 +77,7 @@ The date is mentionned  on each experience and education
 - 
 - 
 
-III. Frequent User Goals
+#### Frequent User Goals
 
 1. A a recruiter, I want to see if the applicant participates to tech conferences so that I can assess if the applicant is open minded and focus on self development.
 - 
@@ -216,8 +216,8 @@ III. Frequent User Goals
 
 ## Known Bugs
 
-* Portfolio : "Like button" do not trigger data
-* 
+* Portfolio : "Like button" do not trigger data collection
+* Progress bar is static and not in motion when opening the page
 * 
 
 ## Feedback
