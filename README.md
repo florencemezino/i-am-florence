@@ -161,6 +161,8 @@ In the mobile version the navigation bar is turn into a hamburger menu for a use
 * Add Captcha on the contact form in the Contact page for security purposes.
 * Add an option to change the language of the website to French which is the mothertongue of the applicant in order to reach the French market.
 * Be GDPR compliant by including a pop-up allowing all new visitors to the website to approve or deny the processing of their personal data. (relevant for the Contact page / contact form)
+* Portfolio : "Like button" trigger data collection
+* Progress bar is in motion when opening the expertise page
 
 
 ## Technologie Used 

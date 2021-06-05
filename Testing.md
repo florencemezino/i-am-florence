@@ -57,7 +57,6 @@ Most common paths through the website:
 
 #### As a recruiter et returning visitor  to the website :
 
-
 1. As a recruiter, I want to see if the applicant is currently working on a project / open source project so that I can see if the applicant is an active programmer.
 - In the portfolio section , the coding journey timeline shows clearly if the applicant is on a ongoing course. 
 The date is mentionned  on each experience and education 
@@ -89,38 +88,41 @@ The date is mentionned  on each experience and education
 
 #### About me
 
-1. Navigation bar
+1. Header / Navigation bar
 - Go to "About me" from a desktop
-- Click on the logo
-- Click on a different tab to check if the active tab the required tab is highlighted
-- 
-- 
-- 
-- 
-- 
+- Click on the logo : we are redirected to the main page "About me"
+- Click on a different tab of the navigation bar to check if the active tab is highlighted when clicked and visiting the related page
+- Click on the "Download CV button : a new tab opens to download CV in pdf format
+- Click on  Github icon : a new tab opens to visit the github profile of the applicant
 
-2. Hero image
+- Check if navigation bar is responsive on tablet and mobile. Confirm navigation bar collapses to become an hamburger menu with a dropdown of the navigation links.
+
+2. Footer
 - Go to "About me" from a desktop
-- Confirm image is visible, appears with a smooth motion and is 100 % width of the the screen
-- 
-- 
-- 
+- Check if footer stick to the bottom of the page and is responsive
+- Click on social media links Twitter and Linkedin. Both option open a new tab to the related website.
 
 
-3. Profile description
+3. Hero image
 - Go to "About me" from a desktop
-- 
-- 
-- 
-- 
-- 
+- Confirm hero image is visible and responsive on all devices.
 
-> Repeat verification of functionality and responsiveness on mobile phone and tablet via Developer Tool
+
+4. Profile description
+- Go to "About me" from a desktop
+- Confirm that the profile description is over the hero image.
+- Confirm the profile description is responsive on all devices.
+
+
+
+> For every point mentionned above : Repeat verification of functionality and responsiveness on mobile phone and tablet via Developer Tool,
 
 #### Expertise
 
-1. Navigation bar
+1. Header / Navigation bar
 - Navbar code is identical on all html pages. Testing already completed.
+
+2. Footer
 
 
 2. Cards for fields of Expertise
@@ -139,7 +141,9 @@ The date is mentionned  on each experience and education
 - 
 - 
 
-> Repeat verification of functionality and responsiveness on mobile phone and tablet via Developer Tool
+
+> For every point mentionned above : Repeat verification of functionality and responsiveness on mobile phone and tablet via Developer Tool,
+
 
 
 #### Projects
@@ -211,9 +215,8 @@ The date is mentionned  on each experience and education
 
 ## Known Bugs
 
-* Portfolio : "Like button" do not trigger data collection
-* Progress bar is static and not in motion when opening the page
-* 
+
+* Hero image not responsive 
 
 ## Feedback
 
