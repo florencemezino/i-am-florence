@@ -5,6 +5,7 @@
 This is my personal portfolio site called "I am Florence". It is designed to be responsive and accessible on a range of devices to display my work experiences, skills and projects. 
 User friendly and easy navigate, this website aims to showcase my story by presenting myself in the best light to attract recruiters,get hired and expand my network in the tech industry.
 
+[I am Florence](assets/testing/responsive.png)
 
 ## User Experience (UX)
 
@@ -293,4 +294,4 @@ Current projects displayed are fake projects in order to illustrate the features
 
 ## Feedback
 
-If you have any feedback, please reach out to the developper of the this project Florence Mezino at florence.mezino@outlook.com 
+If you have any feedback, please reach out to the developper of the this project Florence Mezino at florence.mezino@outlook.com respon
