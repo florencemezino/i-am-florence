@@ -194,6 +194,14 @@ h2 {
   font-weight: 200;
 }
 
+.badge-success {
+    background-color: #D46D4E;
+}
+
+.lead {
+    color:#343A40;
+}
+
 /* -------------------------------------------------------------------------------------------- Projects */
 
 .timeline {
@@ -251,7 +259,7 @@ h2 {
 
 .required-input:after {
     content: "*" ;
-    color: #e32;
+    color: #D46D4E;
     content: ' *';
     display:inline;
 }
@@ -334,12 +342,4 @@ h2 {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #D46D4E }
-}
-
-.badge-success {
-    background-color: #D46D4E;
-}
-
-.lead {
-    color:#343A40;
 }
