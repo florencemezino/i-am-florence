@@ -6,7 +6,7 @@
 }
 
 .body {
-    color: #343A40 ;
+    color: #343A40;
     font-family: 'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -14,7 +14,8 @@
 
 
 /* Logo */
-.fa-laptop-code{
+
+.fa-laptop-code {
     margin: 8px;
 }
 
@@ -117,7 +118,7 @@ html, body, .hero-image .hero-text{
     position: relative;
     margin-top: -80px;
     top: 12%;
-    bottom: -400%;
+    bottom: -150%;
     width: 100%;
     height: 100%;
 }
@@ -126,7 +127,7 @@ html, body, .hero-image .hero-text{
   color: #fafafa;
   font-family:'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
   text-align: left;
-  margin-left: 100px;
+  margin-left: 80px;
   margin-top: 350px;
   top:100%;
 } 
@@ -142,38 +143,6 @@ h2 {
 
 .lead .blockquote {
     font-size: 100px;
-}
-
-
-/* Typewriter effect */
-
-#typewriter {
-  color:  #fafafa;
-  font-family: 'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
-  overflow: hidden; 
-  border-right: .05em solid #D46D4E;
-  white-space: nowrap;
-  margin: 0 auto; 
-  letter-spacing: .05em;
-  animation: typing 5s steps(60), blink-caret 5s;
-}
-
-@keyframes typing {
-  from { width: 0 }
-  to { width:100% }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #D46D4E }
-}
-
-.badge-success {
-    background-color: #D46D4E;
-}
-
-.lead {
-    color:#343A40;
 }
 
 /* --------------------------------------------------------------------------------------------Expertise */
@@ -344,49 +313,33 @@ h2 {
 
 /* -------------------------------------------------------------------------------------------- Media queries*/
 
-/* .custom-class {
-  display: none;
-}
-@include media-breakpoint-up(sm) {
-  .hero-image {
-  background: url('assets/images/css/florence_hero_image.jpeg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    justify-content: center;
-    position: relative;
-  }
+/* Typewriter effect */
+
+#typewriter {
+  color:  #fafafa;
+  font-family: 'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
+  overflow: hidden; 
+  border-right: .05em solid #D46D4E;
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .05em;
+  animation: typing 5s steps(60), blink-caret 5s;
 }
 
-
-@include media-breakpoint-up(sm) {
-  .hero-text {
-  display: block;
-  }
+@keyframes typing {
+  from { width: 0 }
+  to { width:100% }
 }
 
-
-.hero-image {
-    background: url('assets/images/css/florence_hero_image.jpeg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    justify-content: center;
-    position: relative;
-    margin-top: -80px;
-    top: 12%;
-    bottom: -400%;
-    width: 100%;
-    height: 100%;
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #D46D4E }
 }
 
- .hero-text {
-  color: #fafafa;
-  font-family:'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
-  text-align: left;
-  margin-left: 100px;
-  margin-top: 350px;
-  top:100%;
-}  */
+.badge-success {
+    background-color: #D46D4E;
+}
+
+.lead {
+    color:#343A40;
+}
